@@ -9,7 +9,7 @@ pgns = open("lichess_db_standard_rated_2015-06.pgn",'r')
 #pgns = open("test.pgn",'r')
 lopfile = open('listofplayers.txt','w')
 lop = []
-
+#hello//////////////////
 
 game = chess.pgn.read_game(pgns)
 i = 0
